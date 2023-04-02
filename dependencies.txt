@@ -1,0 +1,11 @@
+  - numpy
+  - pandas
+  - jupyter
+  - seaborn
+  - scikit-learn
+  - requests
+  - pip
+  - pip:
+    - plotly
+	- matplotlib
+    
