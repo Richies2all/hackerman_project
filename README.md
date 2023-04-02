@@ -17,8 +17,9 @@ Step 3: Install the required packages and dependencies
 pip install -r dependencies.txt
 ```
 # Code Structure
-
+```
 |-- hackerman_final_project
 |-- data
 |-- data_ingestion
 |-- README.md
+```
