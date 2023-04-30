@@ -26,11 +26,13 @@ Test your installation as follows
 
 ..... on the terminal type :python
 >>>
-
-            from autogluon.tabular import TabularDataset, TabularPredictor .... if that works,then your installation for autogluon is working
->>>
 ```
-And then for streamlit, on the cmd type 
+            from autogluon.tabular import TabularDataset, TabularPredictor
+```
+            .... if successful, then your installation for autogluon is correct
+>>>
+And then for streamlit, on the cmd type
+``` 
 >> streamlit hello
 ```
 Welcome to Streamlit. Check out our demo in your browser.
