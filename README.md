@@ -13,27 +13,30 @@ Step 2: Activate Environment
 conda activate finalprojenv
 ```
 Step 3: Install the required packages and dependencies
-```
+
 Set up Autogluon configuration:
 This is for windows (Mac users please see the documentation or other relevant materials for more details) pip install torch==1.13.1+cpu torchvision==0.14.1+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
-
+```
 pip install -r dependencies.txt
 pip install autoguon jupyter streamlit folium
 ```
 # Test Installations 
-```
+
 Test your installation as follows
 
-..... on the terminal type :python
->>>
+On the Anaconda command prompt, type:
 ```
-            from autogluon.tabular import TabularDataset, TabularPredictor
+python
 ```
-            .... if successful, then your installation for autogluon is correct
->>>
-And then for streamlit, on the cmd type
-``` 
->> streamlit hello
+and then;
+```
+from autogluon.tabular import TabularDataset, TabularPredictor
+```
+if successful, then your installation for autogluon is correct-
+
+For the streamlit test, on the cmd type
+```
+streamlit hello
 ```
 Welcome to Streamlit. Check out our demo in your browser.
 
@@ -43,7 +46,7 @@ Ready to create your own Python apps super quickly? Head over to https://docs.st
 
 May you create awesome apps!
 ...
-```
+
 # Code Structure
 ```
 |-- hackerman_final_project
